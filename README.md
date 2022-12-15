@@ -3,7 +3,7 @@
 JavaScript CRUD Application
 <br>
 <br>
-Live Demo: https://omarJ10.github.io/CRUD-Application/
+Live Demo: https://crud-omar.netlify.app/
 <br>
 <br>
 
