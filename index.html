@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font (Roboto)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Signature-->
+    <span>Created by <a href="https://github.com/omarJ10">Omar Jalled</a></span>
+    <!--Signature-->
+    <div class="container">
+        <h1>CRUD Application</h1>
+        <div class="main">
+            <form action="" id="student-form" autocomplete="off">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter First Name">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Enter Last Name">
+                <label for="rollNo">Id</label>
+                <input type="number" id="rollNo" placeholder="Enter Id">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Id</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="student-list">
+                <tr>
+                    <td>Omar</td>
+                    <td>Jalled</td>
+                    <td>001</td>
+                    <td>
+                        <a href="#" class="edit">Edit</a>
+                        <a href="#" class="delete">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--Script Sheet-->
+    <script src="main.js"></script>
+</body>
+
+</html>
